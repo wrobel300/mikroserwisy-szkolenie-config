@@ -1,0 +1,13 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka-primary:8761/eureka/, http://eureka-secondary:8762/eureka/
+---
+spring:
+  profiles: polite
+decisions: Man its a good idea,Nice choice
+
+---
+spring:
+  profiles: rough
+decisions: You are F*** crazy,No way
